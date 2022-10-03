@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: green;
+}
+
+.container {
+    width:  90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    padding:  1rem;
+}
+
+button {
+    width: 17%;
+    padding: .7rem 0;
+    border: none;
+    outline: none;
+    transition: .7s ease;
+    cursor: pointer;
+    margin: 1rem;
+    background: #fffc00;
+    width: 100%;
+
+}
+
+button:active {
+    outline: 50px solid #FF0099;
+}
